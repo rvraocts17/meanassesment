@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Contact Us </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <style>
+  div{
+
+  background-color : #f2f2f2;
+  padding:20px;
+  
+    }
+
+.clabel{
+border-bottom-style: solid;
+border-top-style: solid;
+
+}
+input[type=text]{
+width:50%;
+}
+
+input[type=text]: {
+  background-color: green;
+}
+
+input[type=text]:invalid {
+  background-color: red;
+}
+  </style>
+ </head>
+
+ <body>
+  <form action="">
+<div class="clabel" >
+ <span > <label for="choose"><b>Contact US </b></label></span> <span class="red" align="right">* Denotes required field</span>
+  </div>
+  
+  <div>
+    <label class="flabel" for="name">Name</label>
+    <input type="text" id="name" name="name" required="true">
+  </div>
+  <div>
+    <label class="flabel"for="email">Email</label>
+    <input type="text" id="email" name="email" required>
+  </div>
+  <div>
+    <label class="flabel" for="website">Website</label>
+    <input type="text" id="website" name="website" required>
+  </div>
+  <div>
+    <label class="flabel" for="website">Message</label>
+    <textarea rows="4" cols="50" id="message" name="message" required>
+	Enter text here...
+	</textarea>
+  </div>
+  <div>
+    <input type="submit" name="submit" id="submit">
+  </div>
+ 
+
+</form>
+ </body>
+</html>
